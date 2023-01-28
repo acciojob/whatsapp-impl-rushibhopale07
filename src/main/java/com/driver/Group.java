@@ -1,24 +1,14 @@
+
 package com.driver;
 
 public class Group {
     private String name;
+    private int numberOfParticipants;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    public Group(String name, int numberOfParticipants) {
         this.name = name;
-    }
-
-    public int getNumberOfParticipants() {
-        return numberOfParticipants;
-    }
-
-    public void setNumberOfParticipants(int numberOfParticipants) {
         this.numberOfParticipants = numberOfParticipants;
     }
 
-    private int numberOfParticipants;
 
 }

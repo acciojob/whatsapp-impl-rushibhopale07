@@ -4,6 +4,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 //@GetMapping("/get-user");
 public class User {
+    public User(String name, String mobile) {
+        this.name = name;
+        this.mobile = mobile;
+    }
+
     private String name;
     private String mobile;
 
